@@ -38,7 +38,7 @@ public class FoodItemController {
                     .body(foodItemService.listarPorId(id));
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                .body(id + " do ingrediente informado não presente no banco de dados");
+                .body("numero " + id + " não encontrado no banco de dados");
     }
     // POST
     @PostMapping("/criar")
