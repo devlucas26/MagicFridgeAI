@@ -27,8 +27,7 @@ public class FoodItemController {
                     .noContent()
                     .build();
         }
-        return ResponseEntity
-                .ok(itens);
+        return ResponseEntity.ok(itens);
     }
     // GET listar por id fornecido
     @GetMapping("/listar/{id}")
@@ -79,5 +78,9 @@ public class FoodItemController {
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).
                 body(id + " conteudo não encontrado");
+    }
+    @GetMapping("/homepage")
+    public String paginaInicial(){
+        return "PÁGINA INICIAL DA APLICAÇÃO";
     }
 }

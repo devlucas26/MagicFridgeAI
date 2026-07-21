@@ -1,6 +1,7 @@
 package dev.java10x.MagicFridgeAI.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import dev.java10x.MagicFridgeAI.enums.Categoria;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -20,8 +21,9 @@ public class FoodItem {
     @Column(name = "nome", nullable = false)
     private String nome;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "categoria", nullable = false)
-    private String categoria;
+    private Categoria categoria;
 
     @Column(name = "quantidade", nullable = false)
     private Integer quantidade;
@@ -46,11 +48,11 @@ public class FoodItem {
         this.nome = nome;
     }
 
-    public String getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 

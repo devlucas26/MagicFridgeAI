@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ai.zencoder.plugin.chat.index">
+    <option name="activeChatId" value="c82292b0-ad74-4749-a301-5f9efdb6a63e" />
+    <option name="chatMetadata" value="{&quot;c82292b0-ad74-4749-a301-5f9efdb6a63e&quot;:{&quot;id&quot;:&quot;c82292b0-ad74-4749-a301-5f9efdb6a63e&quot;,&quot;title&quot;:&quot;Fix this: (chatGptService) Cannot reference 'Re...&quot;,&quot;createdAt&quot;:1781454795849,&quot;updatedAt&quot;:1781454799170,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;No models available: offline mode without cached models, and settings.json contains no models. Eithe...&quot;,&quot;lastUserMessageAt&quot;:1781454795929}}" />
+  </component>
+</project>

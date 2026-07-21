@@ -1,0 +1,88 @@
+{
+    "checksum": "a7b7821d5489067e63b287d35a8376bcaf1649bddbf1d28ad27a31616fc70564",
+    "data": {
+    "id": "c82292b0-ad74-4749-a301-5f9efdb6a63e",
+    "createdAt": 1781454795849,
+    "updatedAt": 1781454799170,
+    "title": "Fix this: (chatGptService) Cannot reference 'Re...",
+    "messages": [
+        {
+            "id": "cf216932-b090-415f-acbf-d4f0eb5fc475",
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Fix this:"
+                },
+                {
+                    "type": "codeSnippet",
+                    "text": "(chatGptService)",
+                    "language": "java"
+                },
+                {
+                    "type": "text",
+                    "text": "Cannot reference 'RecipiController.chatGptService' before superclass constructor is called"
+                }
+            ],
+            "context": {
+                "currentFile": {
+                    "fsPath": "C:/Users/lucas/Documents/Java/MagicFridgeAI/MagicFridgeAI/src/main/java/dev/java10x/MagicFridgeAI/controller/RecipiController.java"
+                }
+            },
+            "createdAt": 1781454795929,
+            "isInternal": false,
+            "rawContent": {
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Fix this:"
+                            },
+                            {
+                                "type": "codeBlock",
+                                "attrs": {
+                                    "language": "java"
+                                },
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "(chatGptService)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cannot reference 'RecipiController.chatGptService' before superclass constructor is called"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7ec26361-5e1e-4c05-a9b3-a0411f1b4c0a",
+            "role": "system",
+            "content": [
+                {
+                    "type": "errorText",
+                    "text": "No models available: offline mode without cached models, and settings.json contains no models. Either configure models in settings.json or ensure gateway is accessible with ZENCODER_ACCESS_TOKEN.",
+                    "actions": [
+                        {
+                            "type": "externalAction",
+                            "title": "Regenerate",
+                            "action": "regenerateLastAnswer"
+                        }
+                    ]
+                }
+            ],
+            "createdAt": 1781454799170,
+            "isInternal": false
+        }
+    ],
+    "model": "auto",
+    "lastUserMessageAt": 1781454795929
+}
+}
